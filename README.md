@@ -47,17 +47,18 @@ cf-node-finder
 
 Sample output:
 ```
+[gavinstrikes@archlinux cf-node-finder]$ node cf-node-finder.js 
 Finding fastest Cloudflare node for your location...
 
-Testing 1.1.1.1... 23.45ms (DFW)
-Testing 1.0.0.1... 25.67ms (DFW)
-Testing cloudflare.com... 28.12ms (ATL)
-Testing dash.cloudflare.com... 32.18ms (IAD)
+Testing 1.1.1.1... Testing 1.0.0.1... Testing cloudflare.com... Testing dash.cloudflare.com... 44.51ms (ATL)
+43.25ms (ATL)
+48.17ms (ATL)
+47.23ms (ATL)
 
 --- Results ---
-Best node: 1.1.1.1 (DFW)
+Best node: 1.0.0.1 (ATL)
 Location: US
-Latency: 23.45ms
+Latency: 43.25ms
 ```
 
 
