@@ -42,7 +42,7 @@ npm link
 Simply run the tool:
 
 ```bash
-cf-node-finder
+node cf-node-finder.js
 ```
 
 Sample output:
